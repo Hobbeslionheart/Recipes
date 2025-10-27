@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sweet and Sour Meatballs — Recipe (microdata)</title>
+</head>
+<body>
+
+<div itemscope itemtype="http://schema.org/Recipe">
+  <h1 itemprop="name">Sweet and Sour Meatballs</h1>
+
+  <p itemprop="description">Easy, tasty meatballs made with frozen meatballs and a sweet-and-sour sauce. Works well in a pressure cooker and reheats nicely. Serve over rice.</p>
+
+  <meta itemprop="recipeYield" content="6" />
+  <meta itemprop="prepTime" content="PT10M" />
+  <meta itemprop="cookTime" content="PT5M" />
+  <meta itemprop="cookingMethod" content="Pressure cooker" />
+  <meta itemprop="recipeCategory" content="Beef" />
+
+  <h2>Ingredients</h2>
+  <ul>
+    <li itemprop="recipeIngredient">2 pounds (32 ounces) frozen meatballs</li>
+    <li itemprop="recipeIngredient">1/2 onion, diced</li>
+    <li itemprop="recipeIngredient">3/4 cup water</li>
+    <li itemprop="recipeIngredient">2/3 cup light brown sugar</li>
+    <li itemprop="recipeIngredient">1 cup ketchup</li>
+    <li itemprop="recipeIngredient">2 tablespoons vinegar</li>
+    <li itemprop="recipeIngredient">2 teaspoons lemon juice</li>
+    <li itemprop="recipeIngredient">2 tablespoons soy sauce</li>
+  </ul>
+
+  <h2>Directions</h2>
+  <!-- Each step is its own HowToStep microdata element -->
+  <div itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
+    <meta itemprop="position" content="1" />
+    <p itemprop="text">Add all ingredients to pressure cooker, stir well and securely lock on lid. Set the cooker to high and cook for 5 minutes.</p>
+  </div>
+
+  <div itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
+    <meta itemprop="position" content="2" />
+    <p itemprop="text">Let the pressure release naturally for 10 minutes before (carefully!) quick releasing the remaining pressure and safely removing lid. Serve over rice.</p>
+  </div>
+
+  <h3>Note / Tip</h3>
+  <div itemprop="recipeInstructions" itemscope itemtype="http://schema.org/HowToStep">
+    <meta itemprop="position" content="3" />
+    <p itemprop="text">Bob's tip: To make your own porcupine meatballs in place of the frozen meatballs: combine 1 pound ground beef with 1/2 cup uncooked long grain white rice, 1/2 cup water, 1/2 teaspoon onion powder, 1/4 teaspoon garlic powder and 1/4 teaspoon ground black pepper. Increase cooking time by 1 minute.</p>
+  </div>
+
+  <!-- Optional metadata visible to parsers -->
+  <p><strong>Serves:</strong> <span itemprop="recipeYield">6</span></p>
+  <p><strong>Prep time:</strong> <time itemprop="prepTime" datetime="PT10M">10 minutes</time></p>
+  <p><strong>Cook time:</strong> <time itemprop="cookTime" datetime="PT5M">5 minutes</time></p>
+
+</div>
+
+</body>
+</html>
